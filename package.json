@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "library and tool to map html to speech",
   "main": "dist/index.js",
-  "author": "Zheng Xu <zxu@gardenia-corp.com> (https://github.com/Jeffxz)",
+  "author": "Zheng Xu <zhengxu7806@gmail.com> (https://github.com/Jeffxz)",
   "license": "MIT",
   "devDependencies": {
     "@babel/preset-env": "^7.16.5",

@@ -10,8 +10,9 @@ const htmlElementToParagraph = (elem: HTMLElement) => {
   }
   const paragraphList: string[] = []
   targetText.split(/\r?\n/).forEach((paraStr) => {
-    if (paraStr.trim().length > 0) {
-      paragraphList.push(paraStr)
+    const outputStr = paraStr.trim()
+    if (outputStr.length > 0) {
+      paragraphList.push(outputStr)
     }
   })
   return paragraphList
